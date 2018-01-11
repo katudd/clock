@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+/*.clock{
+  div part of clockClassName
+}*/
+
+.clock.even {
+  color: #2DFC2D;
+}
+
+.clock.odd {
+  color: #FC001E;
+}
+
+h1{
+  font-size: 10vw;
+  letter-spacing: 2vw;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+button{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2vw;
+  color: #2DFC2D;
+  text-transform: uppercase;
+  background-color: #000;
+  margin: 0 1vw;
+  padding: 1.4vw 1.4vw 1vw 1.4vw;
+  border-radius: 5px;
+  border: 5px solid #2DFC2D;;
+}
+
+button:hover{
+  background-color: #FC001E;
+}
